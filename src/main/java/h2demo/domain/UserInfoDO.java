@@ -4,7 +4,6 @@ import lombok.Data;
 
 @Data
 public class UserInfoDO {
-
     private Long id;
 
     private String name;
