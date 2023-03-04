@@ -5,4 +5,7 @@
     <delete id="deleteById" parameterType="java.lang.Long">
         delete from user_info where id=#{id}
     </delete>
+    <select id="selectById" resultType="h2demo.domain.UserInfoDO">
+        select id, name, age from user_info where id=#{id}
+    </select>
 </mapper>
